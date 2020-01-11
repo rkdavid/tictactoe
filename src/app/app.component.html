@@ -1,0 +1,18 @@
+<div class="header">
+  <h5>TicTacToe</h5>
+</div>
+
+<button type="button" class="restart" mat-flat-button (click)="restart()">Restart Game</button>
+
+<div id="tictactoe">
+  <ng-container *ngFor="let grid of grids">
+    <button type="button" class="grid" mat-flat-button (click)="setValue(grid.id)" [ngClass]="{ 'x': grid.value == 'X', 'o': grid.value == 'O' }">
+      <ng-container *ngIf="grid.value == 'X'">
+        <i class="fa fa-times"></i>
+      </ng-container>
+      <ng-container *ngIf="grid.value == 'O'">
+        <i class="fa fa-circle-thin"></i>
+      </ng-container>
+    </button>
+  </ng-container>
+</div>

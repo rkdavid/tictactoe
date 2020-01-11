@@ -1,0 +1,18 @@
+.table {
+    thead {
+        th {
+            border-top:0;
+            color: $grey_5;
+            font-size: 14px;
+            vertical-align: middle;
+        }
+    }
+    tbody {
+        td {
+            color: $grey_5;
+            border-top: 1px solid $grey_11;
+            font-size: 14px;
+            vertical-align: middle;
+        }
+    }
+}

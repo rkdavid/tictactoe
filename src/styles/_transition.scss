@@ -1,0 +1,8 @@
+@mixin transition($type, $time, $effect, $delay) {
+
+  transition: $type $time $effect $delay;
+  -moz-transition: $type $time $effect $delay;
+  -o-transition: $type $time $effect $delay;
+  -webkit-transition: $type $time $effect $delay;
+
+}

@@ -1,0 +1,35 @@
+@mixin breakpoint($size) {
+
+    $max: auto;
+
+    @if($size == 'xs-screen'){
+        $max: 575.98px;
+    }
+    @else if($size == 's-screen'){
+
+        $max: 767.98px;
+    }
+    @else if($size == 'sm-screen'){
+        $max: 813.98px;
+    }
+    @else if($size == 'm-screen'){
+
+        $max: 991.98px;
+    }
+    @else if($size == 'l-screen'){
+
+        $max: 1199.98px;
+    }
+
+    @media only screen and (max-width: $max){
+        @content;
+    }
+
+}
+
+
+@mixin breakpoint2($width, $height) {
+    @media only screen and (max-width: $width) and (max-height: $height){
+        @content;
+    }
+}

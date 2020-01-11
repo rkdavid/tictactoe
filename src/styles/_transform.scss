@@ -1,0 +1,19 @@
+@mixin transform($x, $y) {
+
+  transform: translate($x, $y);
+  -moz-transform: translate($x, $y);
+  -ms-transform: translate($x, $y);
+  -o-transform: translate($x, $y);
+  -webkit-transform: translate($x, $y);
+
+}
+
+@mixin transformY($y) {
+
+  transform: translateY($y);
+  -moz-transform: translateY($y);
+  -ms-transform: translateY($y);
+  -o-transform: translateY($y);
+  -webkit-transform: translateY($y);
+
+}

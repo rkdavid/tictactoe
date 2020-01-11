@@ -1,0 +1,279 @@
+.icon:before {
+    display: inline-block;
+    position: relative;
+    height: 19px;
+    width: 19px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.icon_logo {
+    &:before {
+        content: "";
+        display: block;
+        background: url('#{$img-path}/header/affiliate_logo.svg') no-repeat center;
+        // float: left;
+        // top: 6px;
+        width: 100%;
+    }
+    &.active:before,
+    &:hover:before {
+        background: url('#{$img-path}/header/affiliate_logo.svg') no-repeat center;
+    }
+}
+.icon_dashboard {
+    &:before {
+        content: "";
+        display: block;
+        background: url('#{$img-path}/icon_dashboard.svg') no-repeat center;
+        float: left;
+        height: 20px;
+        width: 20px;
+        margin: 0 6px 0 0;
+    }
+    &.active:before,
+    &:hover:before {
+        background: url('#{$img-path}/icon_dashboard.svg') no-repeat center;
+    }
+}
+.icon_players {
+    &:before {
+        content: "";
+        display: block;
+        background: url('#{$img-path}/icon_players.svg') no-repeat center;
+        float: left;
+        height: 20px;
+        width: 20px;
+        margin: 0 6px 0 0;
+    }
+    &.active:before,
+    &:hover:before {
+        background: url('#{$img-path}/icon_players.svg') no-repeat center;
+    }
+}
+.icon_withdrawals {
+    &:before {
+        content: "";
+        display: block;
+        background: url('#{$img-path}/icon_withdrawals.svg') no-repeat center;
+        float: left;
+        height: 20px;
+        width: 20px;
+        margin: 0 6px 0 0;
+    }
+    &.active:before,
+    &:hover:before {
+        background: url('#{$img-path}/icon_withdrawals.svg') no-repeat center;
+    }
+}
+.icon_report {
+    &:before {
+        content: "";
+        display: block;
+        background: url('#{$img-path}/icon_report.svg') no-repeat center;
+        float: left;
+        height: 20px;
+        width: 20px;
+        margin: 0 6px 0 0;
+    }
+    &.active:before,
+    &:hover:before {
+        background: url('#{$img-path}/icon_report.svg') no-repeat center;
+    }
+}
+
+.icon_download_report {
+    &:before {
+        content: "";
+        display: block;
+        background: url('#{$img-path}/icon_download_report.png') no-repeat center;
+        float: left;
+        height: 18px;
+        width: 18px;
+        margin: 5px 3px 0 0;
+    }
+    &.active:before,
+    &:hover:before {
+        background: url('#{$img-path}/icon_download_report.png') no-repeat center;
+    }
+}
+
+.icon_download_stats {
+    &:before {
+        content: "";
+        display: block;
+        background: url('#{$img-path}/icon_download_stats.png') no-repeat center;
+        float: left;
+        height: 18px;
+        width: 18px;
+        margin: 5px 3px 0 0;
+    }
+    &.active:before,
+    &:hover:before {
+        background: url('#{$img-path}/icon_download_stats.png') no-repeat center;
+    }
+}
+
+.icon_download_refresh {
+    &:before {
+        content: "";
+        display: block;
+        background: url('#{$img-path}/icon_download_refresh.png') no-repeat center;
+        float: left;
+        height: 18px;
+        width: 18px;
+        margin: 5px 3px 0 0;
+    }
+    &.active:before,
+    &:hover:before {
+        background: url('#{$img-path}/icon_download_refresh.png') no-repeat center;
+    }
+}
+
+/*********************************************
+************** Sidebar & Footer **************
+*********************************************/
+
+.icon_home {
+    &:before {
+        content: "";
+        display: block;
+        background: url('#{$img-path}/sidebar/icon_home.svg') no-repeat center;
+        background-size: 100% auto;
+        float: left;
+        height: 20px;
+        width: 20px;
+        margin: 0 6px 0 0;
+    }
+    &.active:before,
+    &:hover:before {
+        background: url('#{$img-path}/sidebar/icon_home_active.svg') no-repeat center;
+        background-size: 100% auto;
+    }
+}
+
+.icon_promotools {
+    &:before {
+        content: "";
+        display: block;
+        background: url('#{$img-path}/sidebar/icon_promotools.svg') no-repeat center;
+        background-size: 100% auto;
+        float: left;
+        height: 20px;
+        width: 20px;
+        margin: 0 6px 0 0;
+    }
+    &.active:before,
+    &:hover:before {
+        background: url('#{$img-path}/sidebar/icon_promotools_active.svg') no-repeat center;
+        background-size: 100% auto;
+    }
+}
+
+.icon_reports {
+    &:before {
+        content: "";
+        display: block;
+        background: url('#{$img-path}/sidebar/icon_reports.svg') no-repeat center;
+        background-size: 100% auto;
+        float: left;
+        height: 20px;
+        width: 20px;
+        margin: 0 6px 0 0;
+    }
+    &.active:before,
+    &:hover:before {
+        background: url('#{$img-path}/sidebar/icon_reports_active.svg') no-repeat center;
+        background-size: 100% auto;
+    }
+}
+
+.icon_commission {
+    &:before {
+        content: "";
+        display: block;
+        background: url('#{$img-path}/sidebar/icon_commission.svg') no-repeat center;
+        background-size: 100% auto;
+        float: left;
+        height: 20px;
+        width: 20px;
+        margin: 0 6px 0 0;
+    }
+    &.active:before,
+    &:hover:before {
+        background: url('#{$img-path}/sidebar/icon_commission.svg') no-repeat center;
+        background-size: 100% auto;
+    }
+}
+
+.icon_terms {
+    &:before {
+        content: "";
+        display: block;
+        background: url('#{$img-path}/sidebar/icon_terms.svg') no-repeat center;
+        background-size: 100% auto;
+        float: left;
+        height: 20px;
+        width: 20px;
+        margin: 0 6px 0 0;
+    }
+    &.active:before,
+    &:hover:before {
+        background: url('#{$img-path}/sidebar/icon_terms.svg') no-repeat center;
+        background-size: 100% auto;
+    }
+}
+
+.icon_aboutus {
+    &:before {
+        content: "";
+        display: block;
+        background: url('#{$img-path}/sidebar/icon_aboutus.svg') no-repeat center;
+        background-size: 100% auto;
+        float: left;
+        height: 20px;
+        width: 20px;
+        margin: 0 6px 0 0;
+    }
+    &.active:before,
+    &:hover:before {
+        background: url('#{$img-path}/sidebar/icon_aboutus.svg') no-repeat center;
+        background-size: 100% auto;
+    }
+}
+
+.icon_cs {
+    &:before {
+        content: "";
+        display: block;
+        background: url('#{$img-path}/footer/icon_cs.svg') no-repeat center;
+        background-size: 100% auto;
+        float: left;
+        height: 20px;
+        width: 20px;
+        margin: 0 6px 0 0;
+    }
+    &.active:before,
+    &:hover:before {
+        background: url('#{$img-path}/footer/icon_cs_active.svg') no-repeat center;
+        background-size: 100% auto;
+    }
+}
+
+.icon_account {
+    &:before {
+        content: "";
+        display: block;
+        background: url('#{$img-path}/footer/icon_account.svg') no-repeat center;
+        background-size: 100% auto;
+        float: left;
+        height: 20px;
+        width: 20px;
+        margin: 0 6px 0 0;
+    }
+    &.active:before,
+    &:hover:before {
+        background: url('#{$img-path}/footer/icon_account_active.svg') no-repeat center;
+        background-size: 100% auto;
+    }
+}

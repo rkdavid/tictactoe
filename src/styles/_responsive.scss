@@ -1,0 +1,21 @@
+@media screen and (max-width: 992px) {
+    .push-right {
+      .navbar-wrapper {
+        position: unset !important;
+        z-index: 0 !important;
+      }
+      .sidebar {
+          left: 0px !important;
+      }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .push-right {
+        .sidebar-wrapper {
+          background-color: rgba(0, 0, 0, 0.65) !important;
+          opacity: 1 !important;
+          z-index: 2 !important;
+        }
+    }
+}
