@@ -2,10 +2,10 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.9.
 
+# Requirements to be installed:
+
 Angular CLI: 7.x.x
 Node: 10.x.x
-
-
 
 ## Run Build
 
